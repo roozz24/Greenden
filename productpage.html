@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+     <!-- Tailwind CSS cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <!-- Responsive navbar -->
+
+    <nav class="bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl text-green-950 font-bold">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="gap-5 text-green-900 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-green-950" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-green-950" href="productpage.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-green-950" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Search bar -->
+
+    <section class="text-center m-5">
+        <h1 class="font-bold text-3xl">Our Products</h1>
+        <input type="text" placeholder="Search for a product" class="border border-black p-3 rounded mt-5" style="width: 80%;">
+    </section>
+
+    <!-- Products Images -->
+
+    <section class="text-center"> 
+
+        <div class="grid grid-cols-2 gap-5 md:grid-cols-4 mt-10">
+            <div>
+                <img src="./images/bestseller-1.png"
+                    class="inline hover:shadow-xl hover:transform hover:-translate-y-2 hover:transition-all transition-transform">
+                <h1>Cyclamen</h1>
+                <p>(Sowbread)</p>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-2.png"
+                    class="inline hover:shadow-xl hover:transform hover:-translate-y-2 hover:transition-all transition-transform">
+                <h1>Marigold</h1>
+                <p>(French Marigold)</p>
+                <p>$23</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-3.png"
+                    class="inline hover:shadow-xl hover:transform hover:-translate-y-2 hover:transition-all transition-transform">
+                <h1>Cactus</h1>
+                <p>(Columnar Cactus)</p>
+                <p>$26</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-4.png"
+                    class="inline hover:shadow-x hover:transform hover:-translate-y-2 hover:transition-all transition-transform">
+                <h1>Kalanchoe</h1>
+                <p>(Flaming Katy)</p>
+                <p>$35</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-5.png"
+                    class="inline hover:shadow-xl hover:transform hover:-translate-y-2 hover:transition-all transition-transform">
+                <h1>Monstera deliciosa</h1>
+                <p>(Swiss Cheese Plant)</p>
+                <p>$30</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-6.png"
+                    class="inline hover:shadow-xl hover:transform hover:-translate-y-2 hover:transition-all transition-transform">
+                <h1>Ranunculus</h1>
+                <p>(Buttercup)</p>
+                <p>$22</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-7.png"
+                    class="inline hover:shadow-xl hover:transform hover:-translate-y-2 hover:transition-all transition-transform">
+                <h1>Nannorrhops ritchiana</h1>
+                <p>(Mazari Palm)</p>
+                <p>$26</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-8.png"
+                    class="inline hover:shadow-xl hover:transform hover:-translate-y-2 hover:transition-all transition-transform">
+                <h1>Phalaenopsis Orchid</h1>
+                <p>(Moth Orchid)</p>
+                <p>$45</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="bg-green-200 p-10 grid gap-5 mt-10">
+        <h1 class="font-bold text-4xl">GREENDEN</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id tempora sapiente voluptas quis ex nihil nostrum
+            dolorem officiis eos! Explicabo iusto beatae, voluptatum repudiandae distinctio alias officia! Totam, eaque
+            dolorum.<br>
+             @Greenden.com
+        </p>
+        <p class="text-sm">&copy;Greenden.inc 2025</p>
+    </section>
+
+</body>
+</html>
