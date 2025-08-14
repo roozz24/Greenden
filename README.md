@@ -8,7 +8,7 @@
 ---
 
 ## 📍 Live Demo  
-🚀 **[View Live Project]()** *(Replace with your link once deployed)*
+🚀 **[View Live Project](https://roozz24.github.io/Greenden/)**
 
 ---
 
