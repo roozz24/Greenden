@@ -17,7 +17,7 @@
         <h1 class="text-2xl text-green-950 font-bold">GREENDEN</h1>
 
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="size-6 w-6 h-6 md:hidden">
+            class="size-6 w-6 h-6 md:hidden hover:cursor-pointer" id="menubtn">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
@@ -36,6 +36,29 @@
         </ul>
     </nav>
 
+    <!-- Mobile view menu -->
+
+    <section id="mobilemenu" class="bg-green-200 fixed z-20 top-0 flex flex-col gap-5 md:hidden transition-all duration-300 pt-3" style="height: 100vh; width: 50%; right: -50%;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"  id="close" class="hover:cursor-pointer self-end">
+                <path
+                    d="M10.05 23.95a1 1 0 0 0 1.414 0L17 18.414l5.536 5.536a1 1 0 0 0 1.414-1.414L18.414 17l5.536-5.536a1 1 0 0 0-1.414-1.414L17 15.586l-5.536-5.536a1 1 0 0 0-1.414 1.414L15.586 17l-5.536 5.536a1 1 0 0 0 0 1.414z">
+                </path>
+            </svg>
+        <ul class="text-green-900 md:flex bg-green-200 text-center flex-col flex gap-10">
+            <li>
+                <a class="hover:underline hover:text-green-950" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-green-950" href="productpage.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-green-950" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </section>
+
     <!-- Header Section -->
 
     <section class="bg-green-200 p-8 flex justify-center gap-10">
@@ -43,7 +66,7 @@
             <p class="mb-4">We offer you a wide range of Artificial and Natural Flowers</p>
             <h2 class="text-3xl font-bold text-green-950 mb-5 md:text-5xl">Plants for your Interior</h2>
             <div>
-                <button class="bg-green-950 rounded p-2 text-white">Shop Now</button>
+                <button class="bg-green-950 rounded p-2 text-white"><a href="productpage.html">Shop Now</a></button>
                 <button class="border border-black rounded p-2 mb-5">Watch Video</button>
             </div>
 
@@ -198,7 +221,8 @@
     <section class="text-center mt-5">
         <h1 class="font-bold text-3xl">Join Our News Letter</h1>
         <p>Signup for our email newspaper to get exclusive discounts, updates and more</p>
-        <input type="text" class="border border-black m-2 p-2 rounded" style="width: 80%;" placeholder="Type anything"><br>
+        <input type="text" class="border border-black m-2 p-2 rounded" style="width: 80%;"
+            placeholder="Type anything"><br>
         <button
             class="bg-green-700 text-white p-2 rounded font-medium transform transition-all hover:bg-transparent hover:text-black hover: border border-black hover:transition-all">Subsribe</button>
     </section>
@@ -216,5 +240,7 @@
     </section>
 
 </body>
+
+<script src="script.js"></script>
 
 </html>
